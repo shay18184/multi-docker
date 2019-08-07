@@ -9,14 +9,14 @@ script:
   - docker run -e CI=true shay18184/react-test npm test -- --coverage
 
 after_success:
-  - docker build -t shay18184/multi-client ./client
-  - docker build -t shay18184/multi-nginx ./nginx
-  - docker build -t shay18184/multi-server ./server
-  - docker build -t shay18184/multi-worker ./worker
+  - docker build -t shayliboironsrc/multi-client ./client
+  - docker build -t shayliboironsrc/multi-nginx ./nginx
+  - docker build -t shayliboironsrc/multi-server ./server
+  - docker build -t shayliboironsrc/multi-worker ./worker
   #Log in to the docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   #take those images and push them to docker hub
-  - docker push shay18184/multi-client
-  - docker push shay18184/multi-nginx
-  - docker push shay18184/multi-server
-  - docker push shay18184/multi-worker
+  - docker push shayliboironsrc/multi-client
+  - docker push shayliboironsrc/multi-nginx
+  - docker push shayliboironsrc/multi-server
+  - docker push shayliboironsrc/multi-worker
