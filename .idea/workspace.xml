@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="898d220f-1485-4727-b3f9-15dc04111ca0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerrun.aws.json" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerrun.aws.json" afterDir="false" />
-    </list>
+    <list default="true" id="898d220f-1485-4727-b3f9-15dc04111ca0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +224,7 @@
       <workItem from="1565162174785" duration="5438000" />
       <workItem from="1566763588103" duration="4135000" />
       <workItem from="1566937193852" duration="6944000" />
-      <workItem from="1567205078001" duration="5407000" />
+      <workItem from="1567205078001" duration="6395000" />
     </task>
     <task id="LOCAL-00001" summary="add client folder">
       <created>1565127760999</created>
@@ -247,13 +244,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69009000" />
+    <option name="totallyTimeSpent" value="69997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7841584" visible="true" weight="0.17181209" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7841584" visible="true" weight="0.17181209" />
       <window_info id="Structure" order="1" sideWeight="0.21584159" side_tool="true" visible="true" weight="0.17181209" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -266,7 +262,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28470254" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28470254" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
