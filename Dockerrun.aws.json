@@ -6,21 +6,7 @@
       "image":"shayliboironsrc/multi-client",
       "hostname": "client",
       "essential": false,
-      "memory": 256
-    },
-    {
-      "name": "worker",
-      "image":"shayliboironsrc/multi-worker",
-      "hostname": "worker",
-      "essential": false,
-      "memory": 256
-    },
-    {
-      "name": "server",
-      "image":"shayliboironsrc/multi-server",
-      "hostname": "api",
-      "essential": false,
-      "memory": 256
+      "memory": 128
     },
     {
       "name": "nginx",
@@ -31,8 +17,8 @@
         "hostPort": 80,
         "containerPort": 80
       }],
-      "links": ["client","server"],
-      "memory": 256
+      "links": ["client"],
+      "memory": 128
     }
   ]
 }
